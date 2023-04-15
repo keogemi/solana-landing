@@ -227,11 +227,13 @@ body {
 
 .advantages {
     margin-top: 135px;
+    display: flex;
 }
 
 .live_data {
     color: white;
     display: flex;
+    margin-top: 10px;
 }
 
 .blue_circle {
@@ -244,9 +246,83 @@ body {
     margin-right: 0.25%;
 }
 
-.block_bg {
-    position: absolute;
-    z-index: -1;
+.card_fast {
+    background:rgba(58, 58, 58, 0.28);
+    border-radius: 24px;
+    width: 340px;
+    height: 308px;
     display: flex;
-    margin-top: 930px;
+    margin-left: 106px;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.stroke {
+    background: #0fd7ff;
+    height: 33px;
+    width: 2px;
+    margin-top: 20px;
+}
+
+.container_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.fast_title {
+    display: flex;
+    color: white;
+    font-family: Helvetica;
+    font-size: 28px;
+    align-items: flex-end;
+    margin-left: 15px;
+}
+
+.fast_text {
+    color: white;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 17px;
+    color: #C4C4C4;
+    margin-top: 10px;
+    line-height: 27.3px;
+}
+
+.block_fast {
+    display: flex;
+    margin: 0;
+}
+
+.fast_circle {
+    width: 4.3px;
+    height: 4.5px;
+    margin-top: 28px;
+    background: #1FCFF1;
+    border-radius: 50px;
+    display: flex;
+}
+
+.tps_quantity {
+    color: white;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-size: 27px;
+}
+
+.tps_info {
+    display: flex;
+}
+
+.tps_text {
+    color: #c4c4c4;
+    margin-top: 11px;
+}
+
+.decentalized_card {
+    background: rgba(58, 58, 58, 0.28);
+    width: 430px;
+    height: 335px;
+    border-radius: 24px;
 }
