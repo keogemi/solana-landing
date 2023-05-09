@@ -573,3 +573,113 @@ body {
 .active-button {
     border: 1px solid #A962FF;;
 }
+
+
+.utility__footer {
+    height: 62px;
+    background-color: #3a3a3a;
+    border-radius: 16px;
+    width: 1130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.utility__footer-list {
+    list-style-type: none;
+    display: flex;
+    margin-left: -200px;
+    align-items:center;
+}
+
+.utility__footer-item {
+    margin-left: 217px;
+}
+
+.developer_community-grid {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.developer_community-title {
+    color: white;
+    font-family: Helvetica;
+    font-size: 38px;
+    margin-left: 323px;
+    margin-top: 122px;
+}
+
+.developer_community-participants {
+    background-color: #3a3a3a;
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.developer_community-participants-quantity {
+    font-family: Helvetica;
+    font-size: 37px;
+    color: #F087FF;
+}
+
+.developer_community-participants-description {
+    color: #BABABA;
+    font-family: Helvetica;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+
+.developer_community-grid_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.developer_community-breakpoint {
+    margin-left: 20px;
+}
+
+.developer_community-hacker_house {
+    margin-left: 20px;
+}
+
+.developer_community-seoul_hacker_house {
+    margin-left: 20px;
+}
+
+.developer_community-sol_breakpoint_attendes {
+    background-color : #3a3a3a;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.developer_community-sol_breakpoint_attendes-quantity {
+    font-family: Helvetica;
+    font-size: 48px;
+    color: #FFEB3B;
+}
+
+.developer_community-sol_breakpoint_attendes-description {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #BABABA;
+    margin-top: 9px;
+}
+
+.developer_community-grid_bottom {
+    display: flex;
+    flex-direction: row;
+}
+
